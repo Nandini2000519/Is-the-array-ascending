@@ -1,7 +1,7 @@
 arr = list(map(int, input().split()))  # taking the input list/array and storing it in 'arr'
 count = []
 for i in range(len(arr)-1):
-    if(arr[i]>arr[i+1]): # checking if the first element is smaller than the next element
+    if(arr[i]>=arr[i+1]): # checking if the first element is smaller than the next element
         count.append(0)  # if the second element is smaller than the previous one '0' is added to 'count'
         
     else:
